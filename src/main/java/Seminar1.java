@@ -45,7 +45,7 @@ public class Seminar1 {
         int len = arr1.length;
         System.out.println("len= " + len);
 
-        int l = 3;
+        int l = 7;
         int count1 = 0;
 
         for (int k = 0; k <= arr1.length-1; k++) {
@@ -59,7 +59,7 @@ public class Seminar1 {
         int temp1 = 0;
 
         for (int d = 0; d <= arr1.length-1; d++) {
-            if (arr1[d] % n == 0) {
+            if (arr1[d] % l == 0) {
                 m1[temp1] += arr1[d];
                 temp1 += 1;
             }
@@ -74,9 +74,9 @@ public class Seminar1 {
         System.out.println(Arrays.toString(arr2));
 
         int lon = arr2.length;
-        System.out.println(lon);
+        System.out.println("lon= " + lon);
 
-        int p = 3;
+        int p = 13;
         int count2 = 0;
         for (int t = 0; t <= arr2.length-1; t++) {
         if (arr2[t] % p != 0)

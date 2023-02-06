@@ -87,3 +87,37 @@
 //    }
 //
 //}
+
+//import java.io.FileNotFoundException;
+//import java.io.FileReader;
+//import java.io.FileWriter;
+//import java.io.IOException;
+//
+//public class Seminar4 {
+//    public static void main(String[] args) {
+//
+//        FileWriter fileWriter = null;
+//        FileReader reader = null;
+//        try {
+//            fileWriter = new FileWriter("db.sql");
+//            fileWriter.append("Привет мир!");
+//            fileWriter.flush();
+//        } catch (IOException e) {
+//            System.out.println(e.getMessage()); // вывести в консоль сообщение об исключении
+//        }
+//
+//        String text = "";
+//
+//        try {
+//            reader = new FileReader("db.sql");
+//            while (reader.ready()) {
+//                text += (char)reader.read();
+//            }
+//
+//        } catch (IOException e) {
+//            System.out.println(e.getMessage());
+//        }
+//        System.out.println(text);
+//
+//    }
+//}

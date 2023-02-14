@@ -54,7 +54,7 @@ public class Seminar4 {
                 ArrayList<String> finaltext = new ArrayList<>();
                 finaltext.add(surname.get(var.get(j)));
                 finaltext.add(name.get(var.get(j)));
-                finaltext.add(surname.get(var.get(j)));
+                finaltext.add(lastname.get(var.get(j)));
                 finaltext.add(String.valueOf(age.get(var.get(j))));
                 if (gender.get(var.get(j)) == true) {
                     finaltext.add("Ж");
